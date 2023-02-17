@@ -1,0 +1,38 @@
+.menu span {
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin-left: 2px;
+    border-radius: 10px;
+    transition: 0.25s ease-in-out;
+}
+
+.menu span:nth-child(1){
+    margin-top: 5px;
+    background-color: #444;
+}
+
+.menu span:nth-child(2){
+    margin-top: 12px;
+    background-color: #444;
+}
+
+.menu span:nth-child(3){
+    margin-top: 19px;
+    background-color: #444;
+}
+
+#btn-check:checked + .menu span:nth-child(1){
+    transform: rotate(-45deg);
+    margin-top: 12px;
+}
+
+#btn-check:checked + .menu span:nth-child(2){
+    display: none;
+}
+
+#btn-check:checked + .menu span:nth-child(3){
+    transform: rotate(45deg);
+    margin-top: 12px;
+}
