@@ -15,6 +15,9 @@
     padding: 20px 40px;
 }
 .cabecalho .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 70px;
     height: 70px;
     background-color: rgb(217, 29, 19);
@@ -76,7 +79,7 @@
 
 .top-inf ul li a:hover {
     color: rgb(251, 98, 19);
-    border-bottom: 3px solid rgb(251, 98, 19);
+    border-bottom: 3px solid ;
 }
 
 .content {
@@ -87,7 +90,6 @@
 
 .cabecalho .menu-lateral {
     position: absolute;
-    display: inline-block;
     width: 100%;
     top: 154px;
     display: flex;
@@ -96,14 +98,40 @@
     transition: 0.4s ease-in-out;
 }
 
+#btn-check:checked + .cabecalho .menu-lateral {
+    background-color: red;
+}
+
 .cabecalho .menu-lateral ul {
+    margin-left: 100px;
     width: 200px;
+    height: 200px;
     padding: 10px 5px;
     margin-right: 15px;
     background-color: rgba(2, 159, 202, 0.3); 
     border-radius: 10px;
+    display:flex;
+    flex-direction: column;
 }
 
-.menu-lateral.recolher {
-    margin-right: -150px;
+.cabecalho .menu-lateral ul li {
+    margin-bottom: 5px;
+    width: 100%;
+    height: 20px;
+    padding-left: 10px;
+    transition: all 0.3s ease-in-out;
 }
+
+.cabecalho .menu-lateral ul li:hover{
+    background-color: rgba(2, 159, 202, 0.712); 
+       
+}
+
+
+.menu-lateral ul li:hover a {
+    color: rgb(251, 98, 19);
+}
+
+.menu-lateral.remover {
+    display: none;
+}   
