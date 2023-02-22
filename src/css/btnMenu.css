@@ -26,6 +26,7 @@
     margin-bottom: 5px;
     background-color: #cdcdcd;
     z-index: 999;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn-check:checked ~ .linhas span:nth-child(1){
