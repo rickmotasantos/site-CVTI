@@ -88,3 +88,33 @@
     transform: scale(1.2);
     border: 2px solid rgb(251, 98, 19);
 }
+
+.whats {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 150px;
+    left: 100%;
+}
+
+.whats .icon-whats {
+    position: fixed;
+    background-color: #48cf53;
+    padding: 15px;
+    height: 53px;
+    width: 53px;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whats .icon-whats i {
+    color: #fff;
+    font-size: 50px;
+}

@@ -1,0 +1,13 @@
+.rodape {
+    height: 100px;
+    width: 100%;
+    background-color: #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape h3 {
+    color: rgb(2, 149, 202);
+}
