@@ -57,7 +57,7 @@
     justify-content: center;
 }
 
-.top-inf ul li a,
+.top-inf ul li a span,
 .top-inf ul li i{
     color: rgb(246, 246, 246);
     font-size: 25px;
