@@ -77,7 +77,7 @@
     display: none;
 }
 
-.top-inf ul li a:hover {
+.top-inf ul li a:hover span{
     color: rgb(251, 98, 19);
     border-bottom: 3px solid ;
 }
