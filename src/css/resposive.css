@@ -2,6 +2,10 @@
     .cabecalho .titulo h1 {
         font-size: 35px;
     }
+
+    .historia .imagem {
+        width: 500px;
+    }
 }
 
 @media (max-width: 930px){

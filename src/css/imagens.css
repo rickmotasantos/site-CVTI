@@ -1,0 +1,30 @@
+.content .conteudo-imagem {
+    background: url(../img/fazenda-sao-bernardino.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;    
+    margin-top: 70px;
+}
+
+.content .conteudo-imagem.torre {
+    background: url(../img/torre-da-sineira.jpeg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    margin-top: 70px;
+}
+
+.content .conteudo-imagem.ruinas {
+    background: url(../img/ruina-porto-da-vila-iguacu.jpeg)  no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content .conteudo-imagem.cemiterio {
+    background:url(../img/cemiterio-nossa-senhora-rosario.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
