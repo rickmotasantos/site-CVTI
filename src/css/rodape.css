@@ -1,7 +1,7 @@
 .rodape {
     height: 100px;
     width: 100%;
-    background-color: #ccc;
+    background-color: rgb(235  , 95, 7);
 
     display: flex;
     justify-content: center;
@@ -9,5 +9,5 @@
 }
 
 .rodape h3 {
-    color: rgb(2, 149, 202);
+    color: rgb(255, 255, 255);
 }

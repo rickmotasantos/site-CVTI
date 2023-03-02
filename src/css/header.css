@@ -1,5 +1,5 @@
 .cabecalho {
-    background-color: rgba(2, 159, 202, 0.8);
+    background-color: rgb(15, 146, 140, 0.9);
     position: fixed;
     top: 40px;
     left: 0;
@@ -14,14 +14,18 @@
     justify-content:space-between;
     padding: 20px 40px;
 }
-.cabecalho .logo {
+.cabecalho .logo  a img {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
-    height: 70px;
-    background-color: rgb(217, 29, 19);
-    border-radius: 10px;
+}
+
+#img-logo {
+    position: absolute;
+    z-index: 9999;
+    width: 150px;
+    height: 150px;
+    transform: translate(0px, -20px);
 }
 
 .cabecalho .titulo h1 {
@@ -35,10 +39,11 @@
     height: 30px;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 .cabecalho .top-inf {
-    background-color: rgba(2, 159, 202, 0.8);
+    background-color: rgb(15, 146, 140, 0.9);
     position: fixed;
     top: 140px;
     left: 0;
@@ -48,6 +53,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .cabecalho .top-inf ul {
@@ -55,22 +61,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .top-inf ul li a span,
 .top-inf ul li i{
     color: rgb(246, 246, 246);
     font-size: 25px;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    
 }
 
 .top-inf ul li {
-    border-right: 3px solid rgb(246, 246, 246);
+    border-right: 3px solid rgb(241, 136, 9);
     padding: 0 20px;
 }
 
 .top-inf ul li:last-child {
     border: none;
+    
 }
 
 .oculto {
@@ -78,8 +87,7 @@
 }
 
 .top-inf ul li a:hover span{
-    color: rgb(251, 98, 19);
-    border-bottom: 3px solid ;
+    color: rgb(235, 95, 7);
 }
 
 .cabecalho .menu-lateral {
@@ -125,3 +133,7 @@
 .menu-lateral.remover {
     display: none;
 }   
+
+.aparecer {
+    text-decoration: none;
+}

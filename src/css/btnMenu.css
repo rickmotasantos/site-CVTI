@@ -25,7 +25,7 @@
     height: 5px;
     width: 35px;
     margin-bottom: 5px;
-    background-color: #cdcdcd;
+    background-color: rgb(241, 136, 9);
     z-index: 999;
     transition: all 0.3s ease-in-out;
 }
