@@ -15,9 +15,7 @@
 }
 
 @media (max-width: 700px){
-    .cabecalho .logo {
-        margin-left: 40%;
-    }
+   
     .cabecalho .titulo {
         display: none;
     }

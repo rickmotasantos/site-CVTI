@@ -40,3 +40,12 @@
 .rodape {
     position: fixed;
 }
+
+#img-logo {
+    position: absolute;
+    z-index: 9999;
+    width: 70px;
+    height: 70px;
+    transform: translate(0px, -20px);
+    margin-top: 10px;
+}
