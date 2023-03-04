@@ -2,11 +2,16 @@
     position: absolute;
     margin-top: 30px;
     display: block;
-    z-index: 998;
+    z-index: 99;
     width: 35px;
     height: 35px;
 }
 .menu .btn-check {
+    
+    
+}
+
+.menu .clicou{
     position: absolute;
     margin-top: 30px;
     display: block;
@@ -14,9 +19,17 @@
     width: 35px;
     height: 35px;
     opacity: 0;
-    
 }
 
+.menu .btn-check{
+    position: absolute;
+    margin-top: 30px;
+    display: block;
+    z-index: 1000;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+}
 .menu .linhas span {
     display: block;
     border-radius: 5px;
@@ -24,9 +37,35 @@
     width: 35px;
     margin-bottom: 5px;
     background-color: rgb(241, 136, 9);
-    z-index: 999;
+    z-index: 1000;
     transition: all 0.3s ease-in-out;
 }
+#img-logo {
+    position: absolute;
+    z-index: 996;
+    width: 150px;
+    height: 150px;
+    transform: translate(0px, -20px);
+}
+
+.clicou:checked ~ .linhas span:nth-child(1){
+    transform: rotate(-45deg);
+}
+
+.clicou:checked ~ .linhas span:nth-child(2){
+    display: none;
+}
+
+.clicou:checked ~ .linhas span:nth-child(3){
+    transform: rotate(45deg);
+    margin-top: -10px;
+}
+
+.clicou:checked ~ ul {
+    margin-left: -250px;
+}
+
+/* fim */
 
 .btn-check:checked ~ .linhas span:nth-child(1){
     transform: rotate(-45deg);
@@ -44,7 +83,6 @@
 .btn-check:checked ~ ul {
     margin-left: -250px;
 }
-
 .menu ul {
     position: absolute;
     width: 300px;

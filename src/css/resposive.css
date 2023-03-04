@@ -6,6 +6,7 @@
     .historia .imagem {
         width: 500px;
     }
+
 }
 
 @media (max-width: 930px){
@@ -15,6 +16,9 @@
 
     .historiaNova {
         max-width: 700px;
+    }
+    .rodape h3 {
+        padding: 0 20px;
     }
 }
 
@@ -28,6 +32,7 @@
     #home-img-dir-2 {
         border-radius: 0;
     }
+
 }
 
 @media (max-width: 700px){
@@ -80,6 +85,10 @@
 
     .content .historia {
         margin-top: 140px;
+    }
+
+    .sobre h1 {
+        font-size: 30px;
     }
 
     .rodape h3 {
