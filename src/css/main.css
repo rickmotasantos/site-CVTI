@@ -91,13 +91,17 @@
     background-color: rgb(241, 136, 9);
     color: #ffffff;
     width: 150px;
-    padding: 10px 25px;
+    padding: 10px 15px;
     text-align: center;
     margin: 0 0 20px 5px;
     border-radius: 15px;
     transition: all 0.4s ease;
     text-decoration: none;
     font-style:italic;
+}
+
+.historia .btn-saibaMais.curiosidades {
+    width: 300px;
 }
 
 .content .historia a:hover {
