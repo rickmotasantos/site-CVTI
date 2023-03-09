@@ -69,7 +69,7 @@
 
     .historiaNova {
         position: relative;
-        margin-top: 150px;
+        margin-top: 170px;
         max-width: 450px;
     }
 
@@ -81,6 +81,7 @@
 
     .historiaNova p {
         text-align: center;
+        margin-top: 100px;
     }
 
     .content .historia {
