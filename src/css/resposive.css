@@ -47,6 +47,11 @@
     .cabecalho .top-inf {
         margin-top: -40px;
     }
+
+    .menu .clicou {
+        margin-left: -30px;
+    }
+    
     .top-inf ul li a span {
         display: none;
     }
@@ -81,7 +86,7 @@
 
     .historiaNova p {
         text-align: center;
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     .content .historia {
@@ -132,5 +137,9 @@
         font-size: 25px;
         text-align: center;
         margin-top: 20px;
+    }
+
+    .sobre {
+        width: 400px;
     }
 }
