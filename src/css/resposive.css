@@ -33,6 +33,10 @@
         border-radius: 0;
     }
 
+    .menu ul {
+        margin-top: 130px;
+    }
+
 }
 
 @media (max-width: 700px){
@@ -44,12 +48,26 @@
         display: none;
     }
 
+    
+    .top-sup .logo #img-logo{
+        height: 80px;
+        width: 80px;
+    }
+
     .cabecalho .top-inf {
         margin-top: -40px;
     }
 
+    .cabecalho .top-inf ul {
+        top: 5px;
+    }
+
     .menu .clicou {
         margin-left: -30px;
+    }
+
+    .cabecalho .menu ul  {
+        width: 100%;
     }
     
     .top-inf ul li a span {
@@ -102,19 +120,43 @@
         flex-direction: row;
         padding: 0 10px;
     }
+
+    
+    .content-imagem .imagem {
+        width: 400px;
+        height: 200px;
+    }
+
+    .content-imagem h1 {
+        font-size: 25px;
+    }
+
+    .content-imagem p {
+        text-align: center;
+    }
 }
 
 @media (max-width:550px) {
-    .cabecalho .top-sup {
-        padding: 40px 0px;
+    .cabecalho .top-inf {
+        margin-top: -40px;
     }
-    .top-sup .logo #img-logo{
-        height: 100px;
-        width: 100px;
+    
+    .top-sup .logo .logo-historia {
+        height: 70px;
     }
 
     .menu .linhas {
+        margin-top: 10px;
         margin-left: -30px;
+    }
+
+    .menu .clicou{
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+
+    .menu .btn-check {
+        margin-left:-30px;
     }
 
     .historiaNova {
@@ -142,4 +184,5 @@
     .sobre {
         width: 380px;
     }
+
 }
