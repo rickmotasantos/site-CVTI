@@ -6,6 +6,10 @@
 .cabecalho .top-sup {
     padding: 10px 40px;
 }
+
+.cabecalho .top-inf {
+    top: 70px;
+}
 .cabecalho .logo {
     
     width: 50px;
@@ -19,11 +23,12 @@
     margin-top: 15px;
 }
 
-.conteudo-imagem {
+.content-imagem {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .conteudo-imagem h1 {
     color: rgb(249, 249, 249);
@@ -31,21 +36,21 @@
     margin-bottom: 30px;
 }
 
-.conteudo-imagem p {
-    text-align: center;
-    padding: 0 30px;
-    color: rgb(249, 249, 249);
+.content-imagem .imagem {
+    position: relative;
+    top: 50px;
 }
 
-.rodape {
-    position: fixed;
+.content-imagem h1 {
+    padding-top: 40px;
 }
+
 
 #img-logo {
     position: absolute;
     z-index: 9999;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     transform: translate(0px, -20px);
     margin-top: 10px;
 }
