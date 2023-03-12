@@ -116,11 +116,13 @@
     .content-imagem .imagem {
         width: 350px;
         height: 200px;
-        margin-top: 50px;
+        margin-top: 350px;
+       
     }
 
     .content-imagem .imagem.tamanho {
         width: 350px;
+        margin-top: 200px;
     }
 
     .content-imagem h1 {
@@ -165,7 +167,8 @@
 
     .historiaNova p {
         max-width: 400px;
-    }
+     }
+    
 
     .content .historia .imagem {
         width: 350px;
@@ -173,6 +176,18 @@
 
     .content .historia .btn-saibaMais {
         margin: 15px 100px;
+    }
+
+    .content-imagem .imagem {
+        width: 350px;
+        height: 200px;
+        margin-top: 490px;
+       
+    }
+
+    .content-imagem .imagem.tamanho {
+        width: 350px;
+        margin-top: 200px;
     }
 
     .sobre h1{
