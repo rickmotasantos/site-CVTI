@@ -23,12 +23,12 @@
     margin-top: 15px;
 }
 
+
 .content-imagem {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
 }
 .conteudo-imagem h1 {
     color: rgb(249, 249, 249);
