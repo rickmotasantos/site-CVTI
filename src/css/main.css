@@ -163,6 +163,10 @@
     height: 250px;
 }
 
+.historiaNova p {
+    text-align: center;
+}
+
 .historiaNova h1 {
     font-size: 40px;
     text-transform: uppercase;
