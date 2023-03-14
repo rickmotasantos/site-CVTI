@@ -1,52 +1,52 @@
-Projeto de site: "Pontos históricos de Nova Iguaçu"
+Projeto de site: "Pontos histï¿½ricos de Nova Iguaï¿½u"
 
-Este projeto é um site reponsivo que contém dois index, que visa fornecer informações e conteúdos
-sobre um centro tecnológico. O site foi construído utilizando as seguintes tecnologias:
+Este projeto ï¿½ um site reponsivo que contï¿½m dois index, que visa fornecer informaï¿½ï¿½es e conteï¿½dos
+sobre um centro tecnolï¿½gico. O site foi construï¿½do utilizando as seguintes tecnologias:
 
 - HTML
 - SCSS
 -JAVASCRIPT 
 
-Além disso foram utilizados os seguinte recursos:
+Alï¿½m disso foram utilizados os seguinte recursos:
 
-- GOOGLE FONT PARA ADICIONAR ÍCONES E FONTES AO SITE
+- GOOGLE FONT PARA ADICIONAR ï¿½CONES E FONTES AO SITE
 
 Como executar o projeto
 Para executar o projeto siga os seguintes passos:
 
-1- CLONE O REPOSITÓRIO DO PROJETO PARA O SEU COMPUTADOR {GITHUB}
+1- CLONE O REPOSITï¿½RIO DO PROJETO PARA O SEU COMPUTADOR {GITHUB}
 2- ABRA O ARQUIVO `INDEX.HTML` NO SEU NAVEGADOR 
-3- PRONTO! O SITE SERÁ EXIBIDO NA SUA TELA
+3- PRONTO! O SITE SERï¿½ EXIBIDO NA SUA TELA
 
-Personalização do site
-O site pode ser personalizado de acordo com as necessidades do usuário.
+Personalizaï¿½ï¿½o do site
+O site pode ser personalizado de acordo com as necessidades do usuï¿½rio.
 Para isso basta editar os arquivos HTML, CSS e JAVASCRIPT.
 
 Contribuindo 
-Contribuições são sempre bem-vindas. 
+Contribuiï¿½ï¿½es sï¿½o sempre bem-vindas. 
 Para contribuir com o projeto, siga os seguintes passos: 
 
-Faça um fork deste repositório Crie uma branch para a sua feature (git checkout -b minha-feature) 
-Faça as alterações necessárias Commit suas alterações (git commit -m 'Adicionando nova feature') 
-Faça push para a branch (git push origin minha-feature) 
+Faï¿½a um fork deste repositï¿½rio Crie uma branch para a sua feature (git checkout -b minha-feature) 
+Faï¿½a as alteraï¿½ï¿½es necessï¿½rias Commit suas alteraï¿½ï¿½es (git commit -m 'Adicionando nova feature') 
+Faï¿½a push para a branch (git push origin minha-feature) 
 Abra um pull request 
 
 
-Licença
-Este projeto está licenciado sob a licença MIT. 
+Licenï¿½a
+Este projeto estï¿½ licenciado sob a licenï¿½a MIT. 
 Veja o arquivo LICENSE para mais detalhes. 
 
 Colaboradores 
 Este projeto foi desenvolvido por um time de colaboradores que trabalharam juntos para 
-criar uma aplicação funcional e de alta qualidade. Os colaboradores deste projeto incluem: 
+criar uma aplicaï¿½ï¿½o funcional e de alta qualidade. Os colaboradores deste projeto incluem: 
 
 Matheus Barrozo (@matnoggueira) - Desenvolvedor Web / Designer
-Rafael Alves (@orafael22) – Ideias
-Guilherme Motta (@guilherme_motta_motta) – Desenvolvedor Web / Designer
-Ricardo Santos (@rickmorasm) – Ideias / Designer
+Rafael Alves (@orafael22) ï¿½ Ideias
+Guilherme Motta (@guilherme_motta_motta) ï¿½ Desenvolvedor Web / Designer
+Ricardo Santos (@rickmorasm) ï¿½ Ideias / Designer / desenvolvedor web
 Selma do Nascimento (@selmasilvaalves) - Pesquisa
-Ana Cláudia Coimbra (@anavenatus) – Documentação 
-Virgínia Silva (@virginia10n) – Ideias 
-Raquel Cortez – Ideias 
-Hiago Sabóia – Desenvolvedor Web
+Ana Clï¿½udia Coimbra (@anavenatus) ï¿½ Documentaï¿½ï¿½o 
+Virgï¿½nia Silva (@virginia10n) ï¿½ Ideias 
+Raquel Cortez ï¿½ Ideias 
+Hiago Sabï¿½ia ï¿½ Desenvolvedor Web
 
