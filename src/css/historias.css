@@ -23,15 +23,25 @@
 }
 
 .content-imagem {
+    top: 70px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     position: absolute;
 }
 
 .content-imagem .imagem {
-    position:absolute;
-    top: 80px;
+    height: 300px;
+    width: 300px;
+} 
+
+.content-imagem .imagem img {
+    
+}
+
+.content-imagem .imagem.tamanho {
+    /* position: relative;
+    top: 140px; */
 }
 
 .conteudo-imagem h1 {
@@ -39,18 +49,6 @@
     text-transform: uppercase;
     margin-bottom: 30px;
 }
-
-.content-imagem h1 {
-    position:absolute;
-    top: 420px;
-}
-
-.content-imagem p {
-    position: absolute;
-    top: 490px;
-    text-align: center;
-}
-
 
 #img-logo {
     position: absolute;
