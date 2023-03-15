@@ -1,3 +1,7 @@
+body {
+    font-family:"Segoe UI", "Roboto", "Helvetica Neue", "Noto Sans", "Liberation Sans", "Arial", "Sans-Serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+}
+
 .content {
     position: absolute;
     display: flex;
@@ -164,8 +168,11 @@
 }
 
 .historiaNova p {
-    text-align: center;
+    font-family: sans-serif;
+    text-align: center ;
+    font-size: 15pt;
 }
+
 
 .historiaNova h1 {
     font-size: 40px;

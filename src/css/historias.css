@@ -24,15 +24,14 @@
 
 .content-imagem {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     position: absolute;
 }
 
 .content-imagem .imagem {
-    position: relative;
-    top: 200px;
+    position:absolute;
+    top: 80px;
 }
 
 .conteudo-imagem h1 {
@@ -42,13 +41,13 @@
 }
 
 .content-imagem h1 {
-    position: relative;
-    top: 200px;
+    position:absolute;
+    top: 420px;
 }
 
 .content-imagem p {
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 490px;
     text-align: center;
 }
 
