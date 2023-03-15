@@ -35,8 +35,8 @@
     width: 300px;
 } 
 
-.content-imagem .imagem img {
-    
+.content-imagem p {
+    text-align: center;
 }
 
 .content-imagem .imagem.tamanho {
@@ -58,3 +58,4 @@
     transform: translate(0px, -20px);
     margin-top: 10px;
 }
+
