@@ -77,6 +77,10 @@
         margin-left: -300px;
     }
 
+    .btn-check:checked ~ ul {
+        margin-left: -300px;
+    }
+
     .cabecalho .menu ul  {
         width: 100%;
     }
@@ -195,7 +199,6 @@
 
     .content-imagem .imagem.tamanho {
         width: 350px;
-        margin-top: 290px;
     }
 
     .sobre h1{

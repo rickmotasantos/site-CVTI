@@ -199,6 +199,7 @@
 
 .whats .icon-whats {
     background-color: #48cf53;
+    box-shadow: 4px 4px 9px 2px rgba(0, 0, 0, 0.63);
     padding: 15px;
     height: 60px;
     width: 60px;
@@ -208,6 +209,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: sobe-desce 1s ease-in-out infinite;
 }
 
 .whats .icon-whats i {
@@ -217,4 +219,16 @@
 
 #curiosidades {
     border-radius: 25px;
+}
+
+@keyframes sobe-desce {
+    0% {
+        bottom: 0;
+        transform: translatey(0);
+    }
+
+    50% {
+        bottom: 10px;
+        transform: translateY(-8px);
+    }
 }
