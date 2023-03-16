@@ -1,0 +1,36 @@
+.video {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff5d;
+    z-index: 10000;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ass-video {
+    margin: 15px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ass-video span {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ass-video .btn-video {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    background-color: #b32b2b;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
