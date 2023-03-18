@@ -107,12 +107,8 @@
 
     .historiaNova p {
         text-align: center;
-        margin-top: 150px;
     }
 
-    .content .historia {
-        margin-top: 140px;
-    }
 
     .sobre h1 {
         font-size: 30px;
@@ -143,6 +139,10 @@
     .content-imagem p {
         text-align: center;
     }
+
+    .video video {
+        width: 500px;
+    }
 }
 
 @media (max-width:550px) {
@@ -172,7 +172,7 @@
     }
 
     .historiaNova {
-        margin-top: 150px;
+        margin-bottom: 0px;
     }
 
     .historiaNova p {
@@ -206,6 +206,12 @@
 
     .sobre {
         width: 380px;
+        margin: auto;
+    }
+
+    .video video {
+        width: 300px;
+        height:250px;
     }
 
 }

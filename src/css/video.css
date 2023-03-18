@@ -1,14 +1,50 @@
 .video {
-    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100%;
-    background-color: #ffffff5d;
+    background-color: #000000e3;
     z-index: 10000;
 
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.video video {
+    border-radius: 15px;
+}
+
+.video .btn-fechar {
+    background-color: #b32b2b;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.video .btn-fechar span {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: -5px;
+}
+
+
+
+
+.esconder {
+  display: none;
+}
+
+.aparecer {
+    display: block;
 }
 
 .ass-video {
@@ -25,12 +61,24 @@
     font-weight: bold;
 }
 
+.video .btn-fechar:hover {
+    transform: scale(1.2);
+}
+
 .ass-video .btn-video {
     text-decoration: none;
     list-style: none;
     color: #000;
-    background-color: #b32b2b;
+    background-color: #ff2626;
     color: #fff;
     padding: 5px 20px;
     border-radius: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:  all 0.3s ease-in-out;
 }
+
+.ass-video .btn-video:hover {
+    transform: scale(1.2);
+}
+
