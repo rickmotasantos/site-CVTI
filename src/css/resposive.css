@@ -140,7 +140,7 @@
         text-align: center;
     }
 
-    .video video {
+    .video iframe {
         width: 500px;
     }
 }
@@ -209,7 +209,7 @@
         margin: auto;
     }
 
-    .video video {
+    .video iframe {
         width: 300px;
         height:250px;
     }
