@@ -103,6 +103,7 @@ body {
     transition: all 0.4s ease;
     text-decoration: none;
     font-style:italic;
+    cursor: pointer;
 }
 
 .historia .btn-saibaMais.curiosidades {

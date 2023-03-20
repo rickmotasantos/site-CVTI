@@ -1,0 +1,96 @@
+.mais-curioso {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.8);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mais-curioso .titulo-carrossel {
+    color: #fff;
+}
+
+.mais-curioso .sair-carrossel {
+    background-color: #b32b2b;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.mais-curioso .sair-carrossel:hover {
+    transform: scale(1.2);
+}
+
+.mais-curioso .sair-carrossel p {
+    color: #fff;
+    font-size: 30px;
+    margin:-10px 5px -5px 5px;
+
+}
+
+.carrossel-mais {
+    width: 600px;
+    height: 300px;
+}
+
+.carrossel-mais .carousel-item {
+    position: relative;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carrossel-mais .carousel-item .text-carrossel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 600px;
+}
+
+.carousel-item .text-carrossel p {
+    color: #fff;
+    text-transform: uppercase;
+    max-width: 400px;
+    text-align: center;
+
+}
+
+.esconder {
+    display: none;
+}
+
+@media (max-width:700px) {
+    .carrossel-mais {
+        width: 400px;
+    }
+    
+    .carrossel-mais .carousel-item .text-carrossel{
+        justify-content: flex-start;
+    }
+
+    .carousel-item .text-carrossel p {
+        margin-left: 40px;
+        text-align: center;
+        max-width: 300px;
+    }
+
+}
