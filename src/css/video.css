@@ -59,6 +59,11 @@
 .ass-video span {
     text-transform: uppercase;
     font-weight: bold;
+
+}
+
+.ass-video a span {
+    color: #fff;
 }
 
 .video .btn-fechar:hover {
