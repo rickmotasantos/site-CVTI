@@ -69,6 +69,9 @@
 
 .carousel-item .text-carrossel p {
     color: #fff;
+    padding: 10px;
+    background-color: #3b7acc8c;
+    border-radius: 10px;
     text-transform: uppercase;
     font-weight: bold;
     max-width: 400px;
