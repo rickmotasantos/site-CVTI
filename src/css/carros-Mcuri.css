@@ -46,6 +46,7 @@
 
 .carrossel-mais .carousel-item {
     position: relative;
+    height: 250px;
 }
 
 .carousel-item img {
@@ -69,6 +70,7 @@
 .carousel-item .text-carrossel p {
     color: #fff;
     text-transform: uppercase;
+    font-weight: bold;
     max-width: 400px;
     text-align: center;
 
@@ -77,6 +79,7 @@
 .esconder {
     display: none;
 }
+
 
 @media (max-width:700px) {
     .carrossel-mais {
