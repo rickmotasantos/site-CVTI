@@ -46,7 +46,7 @@ Selma do Nascimento (@selmasilvaalves) - Pesquisa
 Ana Claudia Coimbra (@anavenatus) - Documentacao 
 Virginia Silva (@virginia10n) - Ideias 
 Raquel Cortez(@raahcortez) - Ideias 
-Hiago Saboia - Desenvolvedor Web
+Thiago Saboia - Desenvolvedor Web
 Viviane Coelho - Pesquisa
 Milena da Cruz(miwinxgcf) - Documentacao
 
