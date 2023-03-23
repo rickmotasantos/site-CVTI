@@ -53,6 +53,7 @@
     height: 100%;
     width: 100%;
     border-radius: 10px;
+    z-index: -1;
 }
 
 .carrossel-mais .carousel-item .text-carrossel {
@@ -70,7 +71,7 @@
 .carousel-item .text-carrossel p {
     color: #fff;
     padding: 10px;
-    background-color: #000000a1;
+    background-color: #00000056;
     border-radius: 10px;
     text-transform: uppercase;
     font-weight: bold;
