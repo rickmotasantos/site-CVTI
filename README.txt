@@ -41,7 +41,7 @@ criar uma aplicacao funcional e de alta qualidade. Os colaboradores deste projet
 Matheus Barrozo (@matnoggueira) - Desenvolvedor Web / Designer
 Rafael Alves (@orafael22) - Ideias
 Guilherme Motta (@guilherme_motta_motta) - Desenvolvedor Web / Designer
-Ricardo Santos (@rickmorasm) - Ideias / Designer / desenvolvedor web
+Ricardo Santos (@rickmotasm) - Ideias / Designer / desenvolvedor web
 Selma do Nascimento (@selmasilvaalves) - Pesquisa
 Ana Claudia Coimbra (@anavenatus) - Documentacao 
 Virginia Silva (@virginia10n) - Ideias 
