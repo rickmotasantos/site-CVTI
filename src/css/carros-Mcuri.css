@@ -46,7 +46,7 @@
 
 .carrossel-mais .carousel-item {
     position: relative;
-    height: 250px;
+    height: 350px;
 }
 
 .carousel-item img {
@@ -58,7 +58,7 @@
 
 .carrossel-mais .carousel-item .text-carrossel {
     position: absolute;
-    top: 0;
+    top: 150px;
     left: 0;
     z-index: 1;
     display: flex;
