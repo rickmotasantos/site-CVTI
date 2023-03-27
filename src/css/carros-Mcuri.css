@@ -45,39 +45,27 @@
 }
 
 .carrossel-mais .carousel-item {
-    position: relative;
-    height: 350px;
+    max-width: 600px;
+    border-radius: 10px;
 }
 
 .carousel-item img {
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    z-index: -1;
+    height: 300px;
+    border-top-right-radius:10px;
+    border-top-left-radius: 10px;
+
+    
 }
 
 .carrossel-mais .carousel-item .text-carrossel {
-    position: absolute;
-    top: 150px;
-    left: 0;
-    z-index: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    width: 600px;
+    background-color: rgba(0, 0, 0, 0.547);
+    padding:10px 30px;
+    text-align: center;
+    font-size: 15px;
 }
 
 .carousel-item .text-carrossel p {
     color: #fff;
-    padding: 10px;
-    background-color: #00000056;
-    border-radius: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-    max-width: 400px;
-    text-align: center;
-
 }
 
 .esconder {
